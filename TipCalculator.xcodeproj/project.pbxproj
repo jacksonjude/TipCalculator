@@ -16,6 +16,8 @@
 		7AA6347525D5F37800FECC94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA6347325D5F37800FECC94 /* LaunchScreen.storyboard */; };
 		7AA6348025D5F37800FECC94 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6347F25D5F37800FECC94 /* TipCalculatorTests.swift */; };
 		7AA6348B25D5F37800FECC94 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6348A25D5F37800FECC94 /* TipCalculatorUITests.swift */; };
+		7AA6349F25D619A500FECC94 /* AnimatedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6349E25D619A500FECC94 /* AnimatedLabel.swift */; };
+		7AA634A425D61B1700FECC94 /* CurrencyAnimatedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA634A325D61B1700FECC94 /* CurrencyAnimatedLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		7AA6348625D5F37800FECC94 /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA6348A25D5F37800FECC94 /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		7AA6348C25D5F37800FECC94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA6349E25D619A500FECC94 /* AnimatedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedLabel.swift; sourceTree = "<group>"; };
+		7AA634A325D61B1700FECC94 /* CurrencyAnimatedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyAnimatedLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				7AA6347325D5F37800FECC94 /* LaunchScreen.storyboard */,
 				7AA6347625D5F37800FECC94 /* Info.plist */,
 				7AA6346E25D5F37600FECC94 /* TipCalculator.xcdatamodeld */,
+				7AA6349E25D619A500FECC94 /* AnimatedLabel.swift */,
+				7AA634A325D61B1700FECC94 /* CurrencyAnimatedLabel.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -261,9 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA6349F25D619A500FECC94 /* AnimatedLabel.swift in Sources */,
 				7AA6346A25D5F37600FECC94 /* ViewController.swift in Sources */,
 				7AA6347025D5F37600FECC94 /* TipCalculator.xcdatamodeld in Sources */,
 				7AA6346625D5F37600FECC94 /* AppDelegate.swift in Sources */,
+				7AA634A425D61B1700FECC94 /* CurrencyAnimatedLabel.swift in Sources */,
 				7AA6346825D5F37600FECC94 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,7 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jacksonjude.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,7 +477,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jacksonjude.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
