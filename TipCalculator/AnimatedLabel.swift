@@ -1,5 +1,4 @@
-// Adapted From 
-
+// Adapted From https://toplayoutguide.medium.com/swift-3-so-i-wanted-to-animate-a-label-14dd2b332ef9
 
 import UIKit
 
