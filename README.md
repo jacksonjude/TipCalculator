@@ -1,10 +1,10 @@
 # Pre-work - *Tip Calculator*
 
-**Name of your app** is a tip calculator application for iOS.
+**Tippr** is a tip calculator application for iOS.
 
 Submitted by: **Jackson Cooley**
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
@@ -15,26 +15,30 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 
-* [ ] UI animations
+* [x] UI animations (sort of; see "scrolling number labels" below)
 * [x] Remembering the bill amount across app restarts (if <10mins)
 * [x] Using locale-specific currency and currency thousands separators.
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] General UI improvements (bigger labels, rounded corners), dark mode support
+- [x] Valid bill amount string checking
+- [x] Tip slider for precise percentages
+- [x] Saved bill amount and tip percentage across restarts (reset after >20 minutes)
+- [x] Haptic feedback on bill amount and tip percentage changes
+- [x] "Scrolling" number labels (using some code from [this article](https://toplayoutguide.medium.com/swift-3-so-i-wanted-to-animate-a-label-14dd2b332ef9))
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+<img src='https://imgur.com/a/ez2nBrQ' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+- Adding currency symbols was somewhat difficult since I had to add and remove the symbol when calculating the total amounts
+- Rounding results correctly (2 decimal places) was also difficult since I did not want to truncate
 
 ## License
 
