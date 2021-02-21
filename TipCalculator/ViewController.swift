@@ -53,9 +53,7 @@ class ViewController: UIViewController, UITextFieldDelegate
         billAmountTextField.placeholder = billAmountPlaceholder
         
         billAmountTextField.becomeFirstResponder()
-        
-        //addDoneButton(textField: billAmountTextField)
-        
+                
         tipSliderPercentContainerView.addRoundedCorners()
         tipContainerView.addRoundedCorners()
         totalContainerView.addRoundedCorners()
@@ -209,9 +207,6 @@ class ViewController: UIViewController, UITextFieldDelegate
         {
             tipPercentage = Double(tipPercentSlider.value.rounded()/100.0)
         }
-        
-        //tipAmountLabel.text = addCurrencySymbol(getDecimalRoundedString(doubleValue: billAmount*tipPercentage, placesToRound: 2))
-        //totalAmountLabel.text = addCurrencySymbol(getDecimalRoundedString(doubleValue: billAmount*(1+tipPercentage), placesToRound: 2))
         
         tipAmountLabel.countFromCurrent(to: Float(billAmount*tipPercentage), duration: .superbrisk)
         totalAmountLabel.countFromCurrent(to: Float(billAmount*(1+tipPercentage)), duration: .superbrisk)
